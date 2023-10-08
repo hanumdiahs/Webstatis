@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HOLIDAY</title>
+    <link rel="icon" type="images/x-icon" href="gambar/USJ.jpeg"> </link>
+
+</head>
+<body style="background-image: url(gambar/harry-potter.jpeg);">
+    <div style="font-family: Ubuntu; background-color: rgb(23, 24, 43); color: white; text-align:center; font-size: 100%; margin-left: 20%;margin-right: 20%; padding-left: 0%; padding-right: 0%;"> 
+    <br>
+    <h1> Wajib Kunjungi USJ <br>Ketika Kamu Liburan ke Jepang </h1> <br>
+    
+    <p style="font-family: 'Lucida Sans'; font-size: small;"> <i><b>By Hanum Diah Septianjani</b></i> </p>
+
+    <a href="https://www.usj.co.jp/web/en/us/attractions/universal-spectacle-night-parade">
+        <img class="img_pos" src="gambar/night-parade.jpeg" height="300" width="799"> </a>
+    <h2 style="font-family: Segoe UI; color: rgb(0, 0, 0); font-size: larger;"> <mark> Universal Studio Japan </mark> </h2>
+    <p> <img src="gambar/universal-japan.jpg" style="width: 5cm; height: 3,5cm   ;"></p>
+    <p style="font-family: Trebuchet MS; text-align: justify; padding-left: 30px; padding-right: 30px;"> Universal Studio Japan (USJ) merupakan taman bermain yang dibangun oleh Universal Studio di Jepang. USJ dibuka pada pada Maret 2001 di area seluas 39 hektar.
+        Universal Studio Japan berlokasi di Kawasan Teluk Osaka. USJ menjadi taman hiburan yang paling banyak dikunjungi di Jepang setelah Tokyo Disney Resort dengan 
+        memiliki banyak sekali wahana bermain baik untuk kalangan anak-anak hingga dewasa.</p>
+
+    <h3 style="font-family: Segoe UI; color: rgb(0, 0, 0); font-size: larger;"> <mark> Kenapa USJ? </mark> </h3>
+    <p> <img src="gambar/roller-coster.jpg" style="width: 5cm; height: 3,5cm; padding-left: 20px;"> <img src="gambar/bianglala.jpg" style="width: 5cm; height: 3,5c; padding-left: 20px;"> <img src="gambar/Jurassic-Park-Japan.jpg" style="width: 5cm; height: 3,5cm; padding-left: 20px;"> </p>
+    <p style="font-family: Trebuchet MS; text-align: justify; padding-left: 30px; padding-right: 30px;"> Ketika liburan ke Jepang, USJ jadi tempat yang wajib kamu kunjungi. Karena USJ merupakan taman bermain <q> paling populer </q> di dunia. 
+        Taman hiburan ini ini dibagi menjadi sembilan zona, masing-masing bertemakan film Universal Studios papan atas yang paling populer.
+        Zona tersebut yaitu yaitu <i><b> Hollywood, New York, Minion Park, San Fransisco, Amity Village, Jurassic Park, Water world, Wonderland, 
+        dan jangan lupa, Harry Potter the Magical World.</b></i> Beragam wahana yang memacu adrenalin seperti Hollywood Dream dan Jurassic Park dijamin 
+        akan membuat jantung Anda berdebar kencang, namun ada juga banyak atraksi ramah anak seperti Minion Park yang unik dan penuh warna. Atraksi bertema 
+        karakter lainnya menampilkan Sesame Street, Hello Kitty, dan Super Nintendo World yang populer, di mana penggemar video game Nintendo dapat memasuki 
+        dunia Mario, Luigi, Toad, dan karakter ikonik Nintendo lainnya. Anda dapat menaiki replika Mario Kart melewati Kerajaan Jamur yang indah di Mario Kart: Koopa's Challenge.</p>
+    <h4 style="font-family: Segoe UI; color: rgb(0, 0, 0); font-size: larger;"> <mark> Tips-Tips Mengunjungi USJ</mark></h4>
+  
+    <!-- Pergi bersama keluarga atau teman jauh lebih menyenangkan-->
+    <p>
+        <ol style="font-family: Trebuchet MS; text-align: justify; padding-left: 30px; padding-right: 30px;">
+            <li> Sebelum mengunjungi USJ disarankan untuk memeriksa <q><i>Prediction Calender.</i></q> Melalui kalender ini dapat diketahui
+                perkiraan keramaian kunjungan di taman bermain selama beberapa bulan kedepan. Jadi tentunya kalender ini dapat membantu agar kamu
+                lebih leluasa mengunjungi USJ.</li>
+            <li> Gunakan <a href="https://www.traveloka.com/en-id/activities/japan/product/universal-studios-japan-halloween-horror-nights-express-pass-3156242724963" target="_blank"; style="color: aqua;"> Express Pass</a>
+                yang dapat dibeli bersama tiket masuk supaya tidak perlu mengantri panjang.</li>
+            <li> Hindari akhir pekan, liburan sekolah, dan liburan nasional di Jepang.</li>
+            <li> Datang sejak pagi agar bisa bermain sepuasnya.</li>
+            <li> Siapkan budget yang banyak karena USJ banyak menjual mechandise yang unik dan lucu.</li>
+        </ol>
+    </P>
+
+    <h5>
+        <p>
+            <table style="width: 330px; padding-top: 140; font-family: Gill Sans;">
+                <tr>
+                    <th style="text-align:left;">NAMA</th>
+                    <th style="text-align:left;">: Hanum Diah Septianjani</th>
+                </tr>
+                <tr>
+                    <td style="text-align:left;"><b>NIM</b> </td>
+                    <td style="text-align:left;"> <b>: 11210251000114</b> </td>
+                </tr>
+                <tr>
+                    <td style="text-align:left;"> <b>KELAS</b> </td>
+                    <td style="text-align:left;"> <b>: 5A</b> </td>
+                </tr>
+            </table>
+    
+        </p>
+    </h5>
+
+
+
+    </div>
+</body>
+
+
+</html>
