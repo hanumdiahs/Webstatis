@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tugas7style.css">
+    <title>Museum Layang-Layang Indonesia</title>
+    <link rel="Icon" type="images/x-icon" href="images7/favicon-museum.jpg">
+    <script src="https://kit.fontawesome.com/8693e748c0.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+</style>
+
+
+  <div class="back"> 
+  <h1 id="A">
+    Museum Layang-Layang Indonesia
+    </div>
+  </h1>
+  </div>
+  <!--Sejarah-->
+
+  <h3 id="A"> Sejarah </h3>
+   <p> Museum layang-Layang Indonesia di dirikan oleh Ibu Endang Ernawati yang memiliki ketertarikan khusus terhadap budaya layang-layang. 
+    Pendirian Museum ini dilatarbelakangi oleh kepedulian Ibu Endang akan budaya layang-layang yang mulai mengalami kemerosotan, 
+    dari hal tersebut dimulai dari tahun 1980 bu endang muali berkecimpung dalam budaya layang-layang yang kemudian mengoleksi 
+    berbagai layang-layang dan kemudian pada tahun 1985 beliau mendirikan Merindo Kite and Gallery. Berangkat dari Merindo 
+    Kite and Gallery kemudian pada tanggal 21 Maret 2003 Endang Ernawati atau dikenal juga dengan nama Endang W. Puspoyo mendirikan 
+    Museum Layang-Layang Indonesia yang diresmikan langsung oleh Menteri Pariwisata dan Kebudayaan I Gede Ardika. Museum 
+    ini didirikan untuk memberi informasi tentang layang-layang dari seluruh nusantara dan mancanegara, termasuk layang-layang 
+    tradisional dan modern. Museum milik Endang Ernawati ini cocok untuk anak-anak dan pecinta layang-layang, karena di museum ini 
+    terdapat berbagai informasi yang berkaitan dengan layang-layang, baik berupa tulisan, gambar, maupun video. Selain menyediakan 
+    informasi tentang layang-layang, museum ini juga menyediakan kegiatan pendukung, seperti melukis payung, melukis kaos, melukis 
+    wayang mini, membatik, membuat dan mewarnai Layang-layang.
+  </p>
+
+    <!--Tujuan--> <!--css list-->
+<h3 id="A"> Tujuan</h3>
+<p>
+  Adapun tujuan dari pendirian Museum Layang-Layang adalah sebagai berikut:
+</p>
+<ol class="a"> 
+<li>Untuk melestarikan khasnya budaya indonesia melalui layang-layang. </li>
+<li>Memperkenalkan anak-anak pada layangan.</li>
+<li>Sarana Rekreasi Literasi Yang Menghibur dan mendidik.</li>
+</ol>
+
+<!--visi misi--> <!--css box model-->
+<h3 id="A">
+  Visi & Misi
+  </h3>
+<div id="C">
+  <h2>Visi</h2>
+  <p class="visimisi">
+    Melestarikan Budaya Layang-Layang Tradisional Indonesia
+  </p>
+
+  <h2>Misi</h2>
+  <ul class="visimisi">
+    <li id="li">Mengingatkan permainan Layang-Layang</li>
+    <li id="li">Memperkenalkan jenis Layang-Layang baru</li>
+    <li id="li">Pembelajaran pembuatan layang-layang</li>
+    <li id="li">Mengembangkan kreatifitas</li>
+    <li id="li">Mengeksplorasi keunikan fungsi layang-layang</li>
+    <li id="li">Mempelajari sejarah dan perkembangan layang-layang di dunia</li>
+  </ul>
+</div>
+
+
+
+<h3 id="A">Kegiatan</h3>
+<div class="slideshow-container">
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="images7/MELUKIS-LAYANGAN.jpg" style="width:65%">
+    <div class="text">Melukis Layang-Layang</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="images7/LAYANGAN-KOLEKSI.jpg" style="width:65%">
+    <div class="text">Berkeliling Melihat Koleksi Layangan</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="images7/lomba-layangan.jpg" style="width:65%">
+    <div class="text">Lomba Layang-Layang</div>
+  </div>
+
+  
+
+  <a class="prev" onclick="plusSlides(-1)"></a>
+  <a class="next" onclick="plusSlides(1)"></a>
+  
+  
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+  }
+  </script>
+ 
+<ol class="a">
+  <li> Melukis Layang-Layang : 
+    Kegiatan melukis layang-layang bisa anda lakukan ketika mengunjungi Museum Layang-Layang. Dengan membayar tiket masuk Rp. 25.000 untuk dewasa
+    dan Rp. 20.000 untuk anak-anak, anda bisa mendapatkan peralatan dan bahan untuk melukis layangan.
+  </li>
+  <li> Berkeliling Museum : Ketika anda sudah membeli tiket masuk, anda akan didampingi oleh seorang guide yang siap untuk mengantar anda 
+    berkeliling museum serta menjelaskan berbagai koleksi layang-layang.</li>
+  <li> Lomba Layang-Layang : Museum Layang-Layang aktif dalam mengikuti lomba layangan. Mereka mempersiapkan layangan yang terbaik untuk diikutkan perlombaan.</li>
+  
+</i></li> 
+
+</div>
+<!--Video Museum Layang-Layang--> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lqFzfCiBe7M?si=spqM0kLeD77GlNIe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<h3 id="A">Informasi Umum</h3>
+
+<div id="D">
+  
+<!--Jam operasional-->
+<table>
+  <tr>
+    <h3>Jam Operasional</h3>
+    <br>
+  </tr>
+  <tr>
+    <td>Senin</td>
+    <td>09.00 - 16.00</td>
+  </tr>
+  <tr>
+     <td>Selasa </td>
+     <td>09.00 - 16.00</td>
+  </tr>
+  <tr>
+    <td>Rabu </td>
+    <td>09.00 - 16.00</td>
+  </tr>
+  <tr>
+    <td>Kamis</td>
+    <td>09.00 - 16.00</td>
+  </tr>
+  <tr> 
+    <td>Jum'at</td>
+  <td>09.00 - 16.00</td>
+  </tr>
+  <tr>
+    <td>Sabtu</td>
+    <td>09.00 - 16.00</td>
+  </tr>
+  <tr>
+    <td>Minggu</td>
+    <td>09.00 - 16.00</td>
+  </tr>
+  <tr>
+    <td>Tanggal Merah/ Hari Raya</td>
+    <td>TUTUP</td>
+  </tr>
+</table>
+<h3>Alamat</h3>
+<p style="text-align: center; color: white;">Jl. H. Kamang No.38 8, RT.8/RW.10, Pd. Labu, Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12450.</p>
+<h3>Harga Tiket </h3>
+<p style="text-align: center; color: white;"> Harga tiket masuk Museum Layang-Layang sebesar Rp. 25.000 (dewasa), dan Rp. 20.000 (anak-anak). Apabila anda ingin melakukan reservasi tiket,dapat dilakukan dengan klik link dibawah ini :</p>
+<a style="text-align: center; color: white;" href="https://www.instagram.com/museumlayanglayang.id/?hl=en" target="_blank">Chat disini</a>
+<br>
+<br>
+</div>
+
+
+
+<!--Footer-->
+<br>
+<footer>
+  <div class="footer"> 
+    
+    <a href="https://www.facebook.com/groups/370606820412237/">
+    <i class="fab fa-facebook fa-xl"></i> </a>
+    <a href="https://youtu.be/lqFzfCiBe7M?si=1MIudUUvj6Ll_aIM">
+    <i class="fab fa-youtube fa-xl"></i> </a>
+    <a href="https://twitter.com/bank_indonesia">
+    <i class="fab fa-x-twitter fa-xl"></i></a>
+    <a href="https://www.instagram.com/museumlayanglayang.id/?hl=en"></a>
+    <i class="fab fa-square-instagram fa-xl"></i>
+    <a href="https://www.tiktok.com/@kitemuseum">
+    <i class="fab fa-tiktok fa-xl"></i> </a>
+<br>
+<br>
+
+<p class="Nama"> Hanum Diah Septianjani (11210251000114)
+  <br>
+    5A
+    <br>
+    ILMU PERPUSTAKAAN
+</p>
+
+</div>
+
+</footer>
+</body>
+</html>
